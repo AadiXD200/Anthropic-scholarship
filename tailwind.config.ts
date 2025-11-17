@@ -47,6 +47,17 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        editor: {
+          bg: "hsl(var(--editor-bg))",
+          text: "hsl(var(--editor-text))",
+          ai: "hsl(var(--ai-text))",
+        },
+        question: {
+          bg: "hsl(var(--question-bg))",
+        },
+        loading: {
+          pulse: "hsl(var(--loading-pulse))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
