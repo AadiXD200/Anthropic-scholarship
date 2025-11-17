@@ -1,73 +1,49 @@
-# Welcome to your Lovable project
+# Scholarship Essay Co-Writer 🎓✨
 
-## Project info
+An AI-powered interactive writing assistant that helps students craft compelling scholarship essays through a guided conversation.
 
-**URL**: https://lovable.dev/projects/4f2d93c8-cab1-47b5-a4d4-17b408b27cea
+## Features
 
-## How can I edit this code?
+- **Interactive Co-Writing**: The AI writes a few sentences, then asks targeted questions to gather information
+- **Streaming Responses**: Watch your essay come to life with smooth, word-by-word animations
+- **No Authentication Required**: Simple, focused MVP - just paste your scholarship description and start writing
+- **Beautiful UI**: Clean, distraction-free writing interface inspired by Notion
 
-There are several ways of editing your application.
+## How It Works
 
-**Use Lovable**
+1. **Paste the scholarship description** - Provide the requirements and criteria
+2. **Answer questions** - The AI asks specific questions about your experiences
+3. **Watch your essay grow** - Each answer adds beautifully crafted sentences to your essay
+4. **Continue the conversation** - Keep answering until your essay is complete
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4f2d93c8-cab1-47b5-a4d4-17b408b27cea) and start prompting.
+## Technology Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend**: React, TypeScript, Tailwind CSS
+- **Backend**: Lovable Cloud (Supabase Edge Functions)
+- **AI**: OpenAI GPT-4o with streaming responses
+- **Hosting**: Deployed on Lovable
 
-**Use your preferred IDE**
+## Architecture
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+The application uses a client-side state management approach where:
+- Essay content is stored in React state
+- Conversation history builds up through the session
+- All data resets on page refresh (perfect for MVP)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+The AI follows a narrative framework ("Overcoming Adversity") to guide students through crafting a compelling story.
 
-Follow these steps:
+## Development
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+This is a Lovable project. To make changes:
+1. Use the Lovable editor to modify components
+2. Edge functions deploy automatically
+3. Changes appear instantly in the preview
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Environment Variables
 
-# Step 3: Install the necessary dependencies.
-npm i
+Required secrets (configured in Lovable Cloud):
+- `OPENAI_API_KEY` - Your OpenAI API key
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## Credits
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/4f2d93c8-cab1-47b5-a4d4-17b408b27cea) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Built with ❤️ using Lovable - the AI-powered web app builder

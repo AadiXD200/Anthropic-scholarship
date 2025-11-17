@@ -1,1 +1,4 @@
 project_id = "pnsixdzniisqiwozvoqj"
+
+[functions.co-writer]
+verify_jwt = false
