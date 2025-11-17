@@ -1,0 +1,7 @@
+.env
+src/__pycache__/
+*.pyc
+venv/
+src/extractors/__pycache__
+src/llm/__pycache__
+src/utils/__pycache__
