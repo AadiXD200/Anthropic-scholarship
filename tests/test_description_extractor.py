@@ -10,7 +10,7 @@ def test_description_extractor():
     impact in STEM communities. Financial need is considered but not required.
     """
 
-    extractor = ScholarshipDescriptionExtractor(model="gpt-4o-mini")
+    extractor = ScholarshipDescriptionExtractor(model="gemini-flash-latest")
     output = extractor.extract(description)
 
     print("\n\n===== EXTRACTOR OUTPUT =====")

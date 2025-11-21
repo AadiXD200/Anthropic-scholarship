@@ -5,7 +5,7 @@ from .utils import clean_json
 from src.llm.client import llm_call
 
 class ScholarshipDescriptionExtractor:
-    def __init__(self, model="gpt-4o-mini"):
+    def __init__(self, model="gemini-flash-latest"):
         self.model = model
 
     def extract(self, description: str) -> dict:
